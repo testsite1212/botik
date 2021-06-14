@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #000;
+}
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 100px;
+	background: #000;
+	width: 100%;
+	box-sizing: border-box;
+}
+header .logo {
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+}
+header nav {
+	float: right;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+header nav ul li {
+	list-style: none;
+}
+@media (max-width: 991px) {
+	header nav ul li a {
+		padding: 30 0;
+	}
+	header nav ul li a.active {
+		background: #fff;
+	}
+}
+header nav ul li a {
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	position: relative;
+}
+header nav ul li a.active,
+header nav ul li a:hover {
+	color: #fff;
+	background: #333;
+	text-decoration: underline;
+}
+.menu-toggle {
+	color: #fff;
+	float: right;
+	line-height: 50px;
+	font-size: 24px;
+	cursor: pointer;
+	display: none;
+}
+@media (max-width: 991px) {
+	header {
+		padding: 0 40px;
+	}
+	.menu-toggle {
+		display: block;
+	}
+	a {
+		padding: 30px;
+	}
+	header nav ul li a:hover {
+		background: #fff;
+	}
+	header nav {
+		
+		position: absolute;
+		width: 100%;
+		height: calc(100vh - 50px);
+		background: #fff;
+		top: 50px;
+		left: -100%;
+		transition: 0.5s;
+	}
+	header nav.active {
+		left: 0;
+		opacity: 20;
+	}
+	header nav ul {
+		display: block;
+		text-align: center;
+	}
+	.bhd {
+		position: relative;left: -100px;
+	}
+	ul li a {
+		font-size: 2em;
+		padding: 30px 0;
+	}
+	ul {
+		padding: 40px;
+	}
+	nav a {
+		padding: 0 200px 250px 0;
+	}
+	nav {
+		padding: 0 0 150px 0;
+		position: relative;top: 140px;
+	}
+}	
+
+.bot {
+	width: 600px;
+	height: 450px;
+	border: 2px solid #fff;
+	background: #fff;
+	position: relative;left: 27%;
+	top: 100px;
+	text-align: center;
+}
+input {
+	position: relative;top: 290px;
+	background: none;
+	text-align: center;
+	color: #000;
+	cursor: pointer;
+	border: 2px solid #000;
+	border-radius: 20px;
+	padding: 10px 20px;
+	left: -30px;
+}
+
+i {
+	font-size: 30px;
+	position: relative;left: 252px;
+	top: -59px;
+}
+h1 {
+	position: relative;left: -7px;
+}
+.left {
+	position: relative;left: 230px;
+	top: -50px;
+}
+.righ {
+	position: relative;top: -97px;
+	position: relative;left: -190px;
+}
+.right {
+	position: relative;left: -190px;
+	top: -97px;
+}
+.a {
+	position: relative;left: -525px;
+	font-size: 10px;
+	color: #000;
+}
+.let {
+	position: relative;top: -97px;
+	left: 200px;
+}
+.user {
+	position: relative;left: -150px;
+	top: 60px;
+	font-size: 17px;
+}
+.use {
+	position: relative;left: 15px;
+}
+.s {
+	position: relative;left: -525px;
+	color: #000;
+}
